@@ -1,6 +1,6 @@
 # Gemma Skills for AI Edge Gallery
 
-This repository contains production-ready skills for Gemma 4 in Google AI Edge Gallery.
+This repository contains useful skills for Gemma 4 in Google AI Edge Gallery.
 
 The goal is simple: give on-device mobile LLMs practical capabilities through reusable skill packages that are easy to install, test, and extend.
 
@@ -11,6 +11,14 @@ The goal is simple: give on-device mobile LLMs practical capabilities through re
 	- Text-based skills (SKILL.md only)
 	- JavaScript skills (SKILL.md plus scripts/index.html running in a sandboxed hidden webview)
 - A structure that is easy to contribute to and review
+
+## Disclaimer
+
+These skills are provided for demonstration and educational purposes only.
+
+They are intended to showcase implementation patterns and practical possibilities for Gemma 4 in Google AI Edge Gallery. Actual behavior, quality, and outputs may differ based on model version, platform implementation, device environment, and runtime configuration.
+
+Do not treat these skills as guarantees of identical behavior across systems. **Always validate and test thoroughly in your own environment before relying on any skill for critical, safety-sensitive, legal, financial, medical, or production use.**
 
 ## Skill Format
 
@@ -34,6 +42,7 @@ The complete and up-to-date list is maintained in [CATALOG.md](CATALOG.md).
 | Gemini Search | [skills/gemini-search](skills/gemini-search) | JavaScript | Yes | Live web search via Gemini grounding with synthesized answers and sources. |
 | Legal Service Advisor | [skills/legal-service-advisor](skills/legal-service-advisor) | Text | No | Legal issue spotting and structured guidance across major legal domains. |
 | Mood Music | [skills/mood-music](skills/mood-music) | JavaScript | Yes | Mood-based music generation workflow with Loudly API integration. |
+| Personal Finance Coach | [skills/personal-finance-coach](skills/personal-finance-coach) | Text | No | Practical budgeting, savings, debt payoff, and 30-day personal finance action planning. |
 | Restaurant Roulette | [skills/restaurant-roulette](skills/restaurant-roulette) | JavaScript | Yes | Interactive restaurant roulette wheel based on cuisine and location. |
 | Sports Playbook | [skills/sports-playbook](skills/sports-playbook) | Text | No | Coaching-focused game analysis, matchup optimization, and play planning. |
 
